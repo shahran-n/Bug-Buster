@@ -68,15 +68,6 @@ fabb/
     ├── counter.vcd           ← Sample waveform
     └── counter_sim.log       ← Sample simulation log
 ```
-
----
-
-## Without an API Key
-
-FABB still works without an API key — it uses rule-based analysis to detect and
-classify bugs from static RTL patterns and VCD anomalies. Add an API key to get
-full AI-generated explanations and synthesizable patch suggestions.
-
 ---
 
 ## Stopping FABB
