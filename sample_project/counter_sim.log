@@ -1,0 +1,16 @@
+# Simulation Log — counter_tb
+# Generated: 2024-02-17 14:32:01
+# Simulator: iverilog 11.0
+
+VCD info: dumpfile counter.vcd opened for output.
+
+[PASS] Reset test: count_out = 0 at time 10
+[PASS] Enable test: counter increments at time 20
+[FAIL] Mismatch at cycle 47 — signal count_out: expected 8'hFF, got 8'h00
+[FAIL] Overflow flag error at cycle 48 — expected overflow=1, got overflow=0
+[WARNING] Signal 'en' has no transitions after time 200
+[FAIL] Assertion failed at time 94: count_out should not reset before MAX_COUNT
+[PASS] Clock integrity check: OK
+[FAIL] Error: FSM stuck in IDLE state at cycle 203
+[PASS] Simulation completed with errors
+Total: 4 PASS, 4 FAIL
